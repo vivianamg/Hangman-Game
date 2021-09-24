@@ -28,6 +28,19 @@ def run():
 
     letra = input("Escoge una letra! ")
     
+    #Comparar la letra que ingresó el usuario "letra" con la palabra "word"
 
+    for i in word:
+        indice = i[0]
+        letter = i[1]
+
+        if letra == letter:
+            for key in dict_long:
+                if key == indice:
+                    dict_long[key] = letter
+                    print(dict_long)
+        else: 
+            print("La letra no está")
+            
 if __name__ == "__main__":
     run()
