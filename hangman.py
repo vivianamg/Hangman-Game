@@ -21,26 +21,27 @@ def run():
    
     # Dividir la palabra en letras
     word = list(enumerate(palabra))
-    print(word)
+    #print(word)
     dict_long = {i: " _ " for i in range(len(word))}
     print("".join(dict_long.values()))
-    print(dict_long)
+    #print(dict_long)
 
-    letra = input("Escoge una letra! ")
-    
     #Comparar la letra que ingresó el usuario "letra" con la palabra "word"
+    
+    while " _ " in dict_long.values():
+        letra = input("Escoge una letra! ")
 
-    for i in word:
-        indice = i[0]
-        letter = i[1]
+        for i in word:
+            indice = i[0]
+            letter = i[1]
 
-        if letra == letter:
-            for key in dict_long:
-                if key == indice:
-                    dict_long[key] = letter
-                    print(dict_long)
-        else: 
-            print("La letra no está")
-            
+            if letra == letter:
+                for key in dict_long:
+                    if key == indice:
+                        dict_long[key] = letter
+        print("".join(dict_long.values()))
+   
+    print(" ")    
+    print("Ganasate! ○( ＾皿＾)っ")        
 if __name__ == "__main__":
     run()
