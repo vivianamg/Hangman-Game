@@ -1,3 +1,4 @@
+import os
 import random 
 
 def run():
@@ -29,6 +30,7 @@ def run():
     #Comparar la letra que ingresó el usuario "letra" con la palabra "word"
     
     while " _ " in dict_long.values():
+        
         letra = input("Escoge una letra! ")
 
         for i in word:
@@ -39,7 +41,9 @@ def run():
                 for key in dict_long:
                     if key == indice:
                         dict_long[key] = letter
+            os.system("clear")
         print("".join(dict_long.values()))
+        
    
     print(" ")    
     print("Ganasate! ○( ＾皿＾)っ")        
