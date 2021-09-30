@@ -8,5 +8,5 @@ This is a version of the classic Hangman game in spanish, where you are shown a 
 
 ## Authors 
 ##### Viviana Martinez
-- GitHub: [@vivianamg](http://https://github.com/vivianamg "@vivianamg")
-- Linkedin: [/in/viviana-martinez-g/](http://https://www.linkedin.com/in/viviana-martinez-g/ "/in/viviana-martinez-g/")
+- GitHub: [@vivianamg](https://github.com/vivianamg "@vivianamg")
+- Linkedin: [/in/viviana-martinez-g/](https://co.linkedin.com/in/viviana-martinez-g/ "/in/viviana-martinez-g/")
